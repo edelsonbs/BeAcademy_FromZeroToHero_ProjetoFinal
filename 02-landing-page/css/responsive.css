@@ -1,0 +1,217 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   .about-text {
+      padding: 2rem;
+   }
+
+   .depositions h2 {
+      text-align: center;
+   }
+
+   .contact-form {
+      width: 70%;
+   }
+
+   .contact-text img {
+      width: 60%;
+   }
+
+   .modal {
+      width: 80%;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .home {
+      align-items: center;
+   }
+
+   .home {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), var(--purple-500)), url("../assets/universe.jpg") no-repeat center center;
+   }
+
+   .content-home {
+      align-items: center;      
+   }
+
+   .content-home .home-title {
+      font-size: 3.6rem;
+      text-align: center;
+   }
+
+   .content-home .home-text {
+      font-size: 1.8rem;
+      text-align: center;
+   }
+
+   .content-home .home-btn {
+      background: var(--pink-100);
+      color: var(--purple-500);
+      font-weight: bold;
+      padding: 1.6rem 4rem;
+   }
+
+   .menu {
+      padding: 1.2rem 2rem;
+   }
+
+   .menu ul {
+      display: none;
+   }
+
+   .show {
+      display: block;
+   }
+
+   span#imenu {
+      display: block;
+   }
+
+   nav.menu-mobile {
+      position: fixed;
+      right: 0;
+      display: none;
+      width: 80%;
+      margin: 7rem 0;
+      transition: .3s;
+   }
+
+   .menu-mobile li {
+      width: 100%;
+   }
+
+   .menu-mobile li a {
+      display: block;
+      width: 100%;
+      background: var(--purple-100);
+      padding: 1.5rem 2rem;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.6rem;
+      color: var(--purple-500);
+      transition: .3s;
+   }
+
+   .courses,
+   .about,
+   .depositions,
+   .depositions-wrapper {
+      height: auto;
+   }
+
+   .courses-content h2 {
+      font-size: 2.4rem;
+   }
+
+   .about {
+      margin: 6rem 0;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .about img {
+      width: 70%;
+   }
+
+   .about-text {
+      padding: 0;
+   }
+
+   .about h2 {
+      font-size: 2.4rem;
+      text-align: center;
+   }
+
+   .about p {
+      text-align: center;
+   }
+
+   .depositions {
+      margin: 6rem 0 3rem;
+      align-items: center;
+   }
+
+   .depositions h2 {
+      font-size: 2.4rem;
+      text-align: center;
+   }
+
+   .contact {
+      flex-direction: column;
+      height: auto;
+   }
+
+   .contact h2 {
+      font-size: 2.4rem;
+   }
+
+   .contact-text {
+      height: auto;
+   }
+
+   .contact-text img {
+      display: none;
+   }
+
+   .contact-form {
+      width: 100%;
+      overflow: scroll;
+   }
+
+   .modal {
+      width: 90%;      
+      margin: 2.5rem auto 0 auto;
+      overflow: scroll;
+   }
+
+   .modal-content {
+      padding: .5rem 2rem;
+      overflow: scroll;
+   }
+
+   .modal-content h3 {
+      font-size: 1.6rem;
+      margin: 0 0 1.5rem;
+   }
+
+   .col-2,
+   .col-3 {
+      width: 100%;
+   }
+   
+   .modal-btn {
+      left: 0;
+   }
+
+   .row {
+      flex-direction: column;
+      margin: .5rem 0;
+   }
+
+   .row:nth-child(4) {
+      flex-direction: row;
+   }
+
+   .row:nth-child(4) .col-3 {
+      width: calc((100% / 3) - .5rem);
+   }
+
+   #col-opt select {
+      overflow-y: scroll;
+   }
+
+   .footer {
+      padding: 4rem 2rem;
+   }
+
+   .footer-container {
+      flex-direction: column-reverse;
+   }
+
+   .footer-container p {
+      text-align: center;
+   }
+
+   .social-media {
+      margin: 0 0 2rem;
+   }
+}

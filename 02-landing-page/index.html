@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="HTML, CSS, JavaScript, Code, Databse, Programacao, Codigo">
+	<meta name="author" content="Edelson Barboza">
+	<title>Code Space</title>
+	<link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+	<!-- Import CSS Style -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/responsive.css">
+	<!-- Import Google Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+	<main>
+		<header id="home" class="home">
+			<nav class="menu">
+				<a href="#home"><span class="logo">CODE SPACE</span></a>
+				<ul>
+					<li><a href="#home">Início</a></li>
+					<li><a href="#courses">Cursos</a></li>
+					<li><a href="#about">Quem Somos</a></li>
+					<li><a href="#contact">Contato</a></li>
+				</ul>
+				<span id="imenu" class="material-icons">menu</span>
+			</nav>
+
+			<nav class="menu-mobile" style="display: none;"></nav>
+
+			<div class="container">
+				<section class="content-home">
+					<h1 class="home-title">
+						Explore o universo <br>
+						da programação
+					</h1>
+					<p class="home-text">
+						Estude você também <br>
+						na maior escola de teconologia do Brasil
+					</p>
+					<a href="#" class="home-btn">MATRICULE-SE</a>
+				</section>
+			</div>
+		</header>
+
+		<div class="container">
+			<section id="courses" class="courses">
+				<div class="courses-content">
+					<h2>Uma grade diversificada de cursos</h2>
+					<div class="wrapper-card">
+						<div class="card">
+							<img src="./assets/picture.png" alt="Ilustração de uma página web">
+							<h3>Front-end</h3>
+							<ul>
+								<li>HTML e CSS</li>
+								<li>JavaScript</li>
+								<li>Angular</li>
+								<li>React</li>
+							</ul>
+						</div>
+						<div class="card">
+							<img src="./assets/api.png" alt="Ilustração de uma página api web">
+							<h3>Back-end</h3>
+							<ul>
+								<li>Node.JS</li>
+								<li>Phyton</li>
+								<li>PHP</li>
+								<li>Java</li>
+							</ul>
+						</div>
+						<div class="card">
+							<img src="./assets/database.png" alt="Ilustração de um banco de dados">
+							<h3>Banco de Dados</h3>
+							<ul>
+								<li>PostgreSQL</li>
+								<li>SQL Server</li>
+								<li>MongoDB</li>
+								<li>MySQL</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="about">
+				<img src="./assets/astronault.png" alt="Ilustração de um astronauta">
+				<div class="about-text">
+					<h2>A maior escola de tecnologia do Brasil</h2>
+					<p>Fundada em 2022 pelo empresário Edelson Barboza, a Space Code está entre as maiores empresas de
+						tecnologia
+						do Brasil.</p>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eius ex, laboriosam
+						laudantium natus esse fuga et, ratione eos sed harum, rerum in architecto aspernatur!
+						Dignissimos quaerat ab doloribus corporis.</p>
+				</div>
+			</section>
+
+			<section class="depositions">
+				<h2>Veja os depoimentos dos nossos alunos</h2>
+				<div class="depositions-wrapper">
+					<div class="depositions-content">
+						<div class="depositions-picture">
+							<img src="./assets/julia.jpg" alt="Foto de um mulher negra">
+						</div>
+						<h3 class="depositions-title">Julia Sousa</h3>
+						<p class="depositions-text">"Accusantium, repellat consequuntur, dolore dolor cum amet eum
+							suscipit
+							dignissimos, quae repellendus iure perspiciatis commodi eveniet. Aliquid magni optio
+							deserunt
+							pariatur asperiores!"</p>
+					</div>
+					<div class="depositions-content">
+						<div class="depositions-picture">
+							<img src="./assets/joao.jpg" alt="Foto de um homem">
+						</div>
+						<h3 class="depositions-title">João Batista</h3>
+						<p class="depositions-text">"Molestias beatae, tempore animi aperiam odio quos. Dolor
+							voluptatibus
+							hic autem cum accusamus ullam voluptates obcaecati quidem sequi provident quaerat, magnam
+							exercitationem!"</p>
+					</div>
+					<div class="depositions-content">
+						<div class="depositions-picture">
+							<img class=".depositions-img" src="./assets/giovanna.jpg" alt="Foto de um mulher branca">
+						</div>
+						<h3 class="depositions-title">Giovanna Alves</h3>
+						<p class="depositions-text">"Ipsa aperiam cum repellendus vero maxime consequatur provident
+							quisquam, placeat hic natus ea aliquam vitae numquam nobis officiis quod distinctio
+							excepturi
+							illo!"</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="contact">
+				<div class="contact-text">
+					<h2>Mande sua mensagem</h2>
+					<img src="./assets/planet.png" alt="Ilustração de um planeta">
+				</div>
+				<form id="icontactform" action="index.html" class="contact-form">
+					<input class="input-contact" type="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+					<input class="input-contact" type="text" placeholder="Assunto" required>
+					<textarea class="input-contact" name="" id="" cols="30" rows="10" placeholder="Mensagem"
+						required></textarea>
+					<button type="submit" class="contact-btn">ENVIAR</button>
+				</form>
+			</section>
+		</div>
+		<!-- Modal -->
+		<div class="bg-modal" id="bg-modal">
+			<div class="modal" id="modal">
+				<div class="modal-content">
+					<a class="modal-btn-close">
+						<span id="" class="material-icons icon-modal">close</span>
+					</a>
+					<h3>Formulário de matrícula</h3>
+					<form id="iform" action="index.html">
+						<div class="row">
+							<div class="col-2">
+								<label for="iname">Nome</label>
+								<input type="text" name="name" id="iname" pattern="[a-zA-Záãâéêíîóôõú\s]+$" required>
+							</div>
+							<div class="col-2">
+								<label for="iemail">E-mail</label>
+								<input type="email" name="email" id="iemail" maxlength="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-2">
+								<label for="itel">Telefone</label>
+								<input type="tel" name="tel" id="itel" maxlength="15" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" placeholder="(00) 0000-0000" title="Número de telefone precisa ser no formato (00) 0000-0000" required>
+							</div>
+							<div class="col-2">
+								<label for="icep">CEP</label>
+								<input type="text" name="cep" id="icep" maxlength="8" pattern="[0-9]+$" required>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-2">
+								<label for="ilogradouro">Logradouro</label>
+								<input type="text" name="logradouro" id="ilogradouro" disabled>
+							</div>
+							<div class="col-2">
+								<label for="icomplemento">Complemento</label>
+								<input type="text" name="complemento" id="icomplemento" disabled>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-3">
+								<label for="ibairro">Bairro</label>
+								<input type="text" name="bairro" id="ibairro" disabled>
+							</div>
+							<div class="col-3">
+								<label for="icidade">Cidade</label>
+								<input type="text" name="cidade" id="icidade" disabled>
+							</div>
+							<div class="col-3">
+								<label for="iuf">UF</label>
+								<input type="text" name="uf" id="iuf" disabled>
+							</div>
+						</div>
+						<div class="row">
+							<div id="col-opt" class="col">
+								<label for="iopcao">Escolha o curso</label>
+								<select name="" id="iopcao" required>
+									<option value="">Selecione um curso</option>
+									<optgroup label="Front-end">
+										<option value="R$ 840,00">HTML e CSS</option>
+										<option value="R$ 1.150,00">JavaScript</option>
+										<option value="R$ 2.000,00">React</option>
+									</optgroup>
+									<optgroup label="Back-end">
+										<option value="R$ 1.340,00">Phyton</option>
+										<option value="R$ 990,00">Java</option>
+										<option value="R$ 970,00">PHP</option>
+									</optgroup>
+									<optgroup label="Banco de Dados">
+										<option value="R$ 1.120,00">SQLServer</option>
+										<option value="R$ 790,00">MongoDB</option>
+										<option value="R$ 820,00">MySQL</option>
+									</optgroup>
+								</select>
+							</div>
+							<div class="col-3">
+								<label for="ivalor">Valor</label>
+								<input id="ivalor" type="text" name="" disabled required>
+							</div>
+						</div>
+						<div class="row">
+							<button id="ifinalize" class="modal-btn" type="submit" disabled>Finalizar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<span class="msg" style="display: none;"></span>
+
+		<footer class="footer">
+			<div class="footer-container">
+				<p>Edelson Barboza&copy; 2022 - Todos os direitos reservados.</p>
+				<div class="social-media">
+					<ul>
+						<li><a class="social-link" href="mailto:edelsonbsilva@gmail.com" target="_blank"><i
+									class="ti ti-mail"></i></a></li>
+						<li><a class="social-link" href="https://www.linkedin.com/in/edelson-barboza/"
+								target="_blank"><i class="ti ti-brand-linkedin"></i></a></li>
+						<li><a class="social-link" href="https://www.instagram.com/edelsonbarboza/" target="_blank"><i
+									class="ti ti-brand-instagram"></i></a>
+						</li>
+						<li><a class="social-link" href="https://github.com/edelsonbs" target="_blank"><i
+									class="ti ti-brand-github"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<p class="credits">Images by <a href="https://www.freepik.com/author/pikisuperstar"
+					target="_blank">pikisuperstar</a> on Freepik</p>
+		</footer>
+	</main>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
