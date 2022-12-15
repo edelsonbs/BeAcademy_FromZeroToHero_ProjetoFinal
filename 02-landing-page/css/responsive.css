@@ -153,19 +153,18 @@
    }
 
    .contact-form {
-      width: 100%;
-      overflow-y: scroll;
+      width: 100%;     
    }
 
    .modal {
-      width: 90%;      
-      margin: 2.5rem auto 0 auto;
+      width: 90%;  
+      height: 95vh;    
+      margin: 2rem auto 0 auto;
       overflow-y: scroll;
    }
 
    .modal-content {
-      padding: .5rem 2rem;
-      overflow-y: scroll;
+      padding: .5rem 2rem;      
    }
 
    .modal-content h3 {
