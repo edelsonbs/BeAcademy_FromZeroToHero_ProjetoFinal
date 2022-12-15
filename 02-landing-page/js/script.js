@@ -58,6 +58,7 @@ if (window.screen.width < 768) {
     window.addEventListener('scroll', hiddeMenu);
 }
 
+/* Hidde principal menu and show menu mobile */
 function hiddeMenu() {
     navMobile.style.display = 'none'
     btnMenuMobile.innerHTML = 'menu'
@@ -78,18 +79,18 @@ function closeModal() {
     resetModalForm()
 }
 
+/* Set valeu input price */
 selectOption.addEventListener('change', () => {
     const showPrice = selectOption.options[selectOption.selectedIndex].value
     priceCourse.value = `${showPrice}`
     console.log(showPrice)
 })
 
+// const name = document.querySelector('#iname')
+// const email = document.querySelector('#iemail')
+// const tel = document.querySelector('#itel')
 
-const name = document.querySelector('#iname')
-const email = document.querySelector('#iemail')
-const tel = document.querySelector('#itel')
-
-/* Checking if the submit button has been clicked */
+// /* Checking if the submit button has been clicked */
 // btnModal.addEventListener('click', () => {
 //     let form = document.querySelector('#iform')
 
@@ -98,18 +99,19 @@ const tel = document.querySelector('#itel')
 //     }
 
 //     document.querySelector('.msg').style.background = `${success}`
-//     setTimeout(() => {
-//         console.log('Finalizou!')
+//     setTimeout(() => {//         
 //         hiddeMsg()
 //     }, 3000)
 
 // })
 
+/* Reset modal form */
 function resetModalForm() {
     document.querySelector('#iform').reset()
     getCep.style.border = '1px solid #afa3d6'
 }
 
+/* Show message */
 function showMsg(msg) {
     document.querySelector('.msg').style.display = 'block'
     document.querySelector('.msg').style.top = '0'
@@ -119,6 +121,7 @@ function showMsg(msg) {
     }, 3000)
 }
 
+/* Hidde message */
 function hiddeMsg() {
     document.querySelector('.msg').style.display = 'none'
     document.querySelector('.msg').style.top = '-100%'
@@ -130,7 +133,7 @@ getCep.addEventListener('change', () => {
     getAdrress(value)
 })
 
-/* Promisse */
+/* Promisse - Async/Await */
 async function getAdrress(cep) {
 
     try {
