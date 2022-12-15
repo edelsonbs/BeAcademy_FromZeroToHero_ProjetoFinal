@@ -154,18 +154,18 @@
 
    .contact-form {
       width: 100%;
-      overflow: scroll;
+      overflow-y: scroll;
    }
 
    .modal {
       width: 90%;      
       margin: 2.5rem auto 0 auto;
-      overflow: scroll;
+      overflow-y: scroll;
    }
 
    .modal-content {
       padding: .5rem 2rem;
-      overflow: scroll;
+      overflow-y: scroll;
    }
 
    .modal-content h3 {
