@@ -1,6 +1,6 @@
 # Projeto Final - From Zero To Hero
 
-Repositório criado para armazenar os arquivos referente ao Projeto Final do bootcamp "From Zero To Hero" realizado pela BeAcademy.<br>
+Repositório criado para armazenar os arquivos referentes ao Projeto Final do bootcamp "From Zero To Hero" realizado pela BeAcademy.<br>
 O projeto está divido em três partes:
 
 ## 1- Planilha Excel
@@ -17,7 +17,7 @@ hora, percentual etc)
 - Tabela dinâmica
 
 ## 2- Landing Page
-Confira o projeto clicando [aqui](https://edelsonbs.github.io/BeAcademy_FromZeroToHero_ProjetoFinal/02-landing-page/#)
+Confira o projeto clicando <a href="https://edelsonbs.github.io/BeAcademy_FromZeroToHero_ProjetoFinal/02-landing-page/#" target="_blank">aqui</a>
 ### 2.1 Conteúdo abrangido:
 - Semântica
 - Título
