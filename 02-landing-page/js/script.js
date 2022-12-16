@@ -133,6 +133,13 @@ getCep.addEventListener('change', () => {
     getAdrress(value)
 })
 
+/* Limit the value of the cep input */
+getCep.addEventListener('input', () => {
+    if (getCep.value.length > getCep.maxLength) {
+        getCep.value = getCep.value.slice(0, getCep.maxLength)
+    }    
+})
+
 /* Promisse - Async/Await */
 async function getAdrress(cep) {
 
