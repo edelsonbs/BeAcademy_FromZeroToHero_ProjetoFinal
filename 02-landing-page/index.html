@@ -147,7 +147,7 @@
 					<img src="./assets/planet.png" alt="Ilustração de um planeta">
 				</div>
 				<form id="icontactform" action="index.html" class="contact-form">
-					<input class="input-contact" type="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+					<input class="input-contact" type="email" placeholder="E-mail" required>
 					<input class="input-contact" type="text" placeholder="Assunto" required>
 					<textarea class="input-contact" name="" id="" cols="30" rows="10" placeholder="Mensagem"
 						required></textarea>
@@ -163,25 +163,25 @@
 						<span id="" class="material-icons icon-modal">close</span>
 					</a>
 					<h3>Formulário de matrícula</h3>
-					<form id="iform" action="index.html">
+					<form id="iform" action="#" method="post">
 						<div class="row">
 							<div class="col-2">
 								<label for="iname">Nome</label>
-								<input type="text" name="name" id="iname" pattern="[a-zA-Záãâéêíîóôõú\s]+$" required>
+								<input type="text" name="name" id="iname" required>
 							</div>
 							<div class="col-2">
 								<label for="iemail">E-mail</label>
-								<input type="email" name="email" id="iemail" maxlength="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+								<input type="email" name="email" id="iemail" maxlength="30" required>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-2">
 								<label for="itel">Telefone</label>
-								<input type="tel" name="tel" id="itel" maxlength="15" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" placeholder="(00) 0000-0000" title="Número de telefone precisa ser no formato (00) 0000-0000" required>
+								<input type="text" name="tel" id="itel" maxlength="15"  placeholder="(00) 00000-0000" required>
 							</div>
 							<div class="col-2">
 								<label for="icep">CEP</label>
-								<input type="number" name="cep" id="icep" maxlength="8" required>
+								<input type="text" name="cep" id="icep" maxlength="9" required>
 							</div>
 						</div>
 						<div class="row">
@@ -191,7 +191,7 @@
 							</div>
 							<div class="col-2">
 								<label for="icomplemento">Complemento</label>
-								<input type="text" name="complemento" id="icomplemento" disabled>
+								<input type="text" name="complemento" id="icomplemento">
 							</div>
 						</div>
 						<div class="row">
@@ -236,7 +236,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<button id="ifinalize" class="modal-btn" type="submit" disabled>Finalizar</button>
+							<button id="ifinalize" class="modal-btn" type="submit">Finalizar</button>
 						</div>
 					</form>
 				</div>
